@@ -1,15 +1,14 @@
 class abonnes{
-    constructor(id, photo,pseudo ,age, sexe, search, departement, descritption) {
+    constructor(id, photo,pseudo ,age, sexe, orientation, departement, descritption) {
 
         this.id = id
         this.photo = photo
         this.pseudo = pseudo
         this.age = age
         this.sexe = sexe
-        this.search = search
+        this.orientation = orientation
         this.departement = departement
         this.descritption = description
-
     }
 }
 
@@ -27,4 +26,4 @@ let Richard = new abonnes ("34","Richard","","40","Homme","Femme","Departement",
 let Bertrand = new abonnes ("35","Bertrand","","45","Homme","Femme","Departement","A propos de vous")
 let Bobby = new abonnes ("36","Bobby","","42","Homme","Femme","Departement", "A propos de vous")
 
-alert("hello world");
+
