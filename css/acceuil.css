@@ -1,0 +1,36 @@
+body {
+  background-image: url(../image/pexels-juan-mendez-1536619.jpg);
+  background-repeat: round;
+  background-attachment: fixed;
+  display: flex;
+}
+body .entete nav h1 img {
+  color: blue;
+}
+body .formulaire {
+  width: 40%;
+  position: relative;
+  top: 80px;
+  right: 70px;
+}
+body .formulaire form .conditions {
+  width: 60%;
+}
+body .formulaire form .sexe {
+  display: inline-block;
+  width: 20%;
+  text-align: right;
+  margin-right: 1rem;
+}
+body .formulaire form p {
+  width: 100%;
+}
+body .formulaire form p .etiquette {
+  display: inline-block;
+  width: 20%;
+  text-align: right;
+  margin-right: 1rem;
+}
+body .formulaire form p input {
+  color: blue;
+}/*# sourceMappingURL=acceuil.css.map */
