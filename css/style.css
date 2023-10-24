@@ -1,5 +1,12 @@
+body {
+  background-image: url(../image/pexels-juan-mendez-1536619.jpg);
+  background-repeat: round;
+  background-attachment: fixed;
+}
 body .block {
   display: flex;
+  position: relative;
+  top: 48.75rem;
 }
 body .block #barrenav {
   display: flex;
@@ -8,7 +15,6 @@ body .block #barrenav {
   width: fit-content;
   height: auto;
   background-color: coral;
-  justify-content: space-between;
   margin: 0.5rem;
 }
 body .block #barrenav img {
@@ -20,7 +26,6 @@ body .block #barrenav button {
   font-size: 2rem;
   margin: 1rem;
   cursor: pointer;
-  border-radius: 1rem;
   border: solid;
 }
 body .block #galerieDesAbonnes {
@@ -47,28 +52,4 @@ body .block #galerieDesAbonnes #affiche img {
 body .block #galerieDesAbonnes #affiche img #info {
   display: flex;
   flex-direction: column;
-}
-
-body {
-  background-image: url(../image/pexels-juan-mendez-1536619.jpg);
-  background-repeat: round;
-  background-attachment: fixed;
-  display: flex;
-}
-body .entete nav h1 img {
-  color: blue;
-}
-body .formulaire {
-  width: 40%;
-  position: relative;
-  top: 80px;
-  right: 70px;
-}
-body .formulaire form p .etiquette {
-  display: inline-block;
-  width: 3rem;
-  border: solid;
-}
-body .formulaire form p input {
-  color: blue;
 }/*# sourceMappingURL=style.css.map */
