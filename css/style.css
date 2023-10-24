@@ -29,7 +29,7 @@ body .block #galerieDesAbonnes {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 body .block #galerieDesAbonnes #affiche {
   border: solid;
@@ -39,7 +39,7 @@ body .block #galerieDesAbonnes #affiche {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 20rem;
+  width: 16rem;
   margin: 0.5rem;
 }
 body .block #galerieDesAbonnes #affiche img {
