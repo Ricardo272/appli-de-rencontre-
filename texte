@@ -17,3 +17,20 @@
                     <p class="description">
                         Déscription : ${recherche[i].description}
                     </p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    <form action="profil.html" id="directionProfil">
+                        <button id="btnInfo">En savoir plus > </button>
+                   </form>
