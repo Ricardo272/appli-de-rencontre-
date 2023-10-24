@@ -27,15 +27,15 @@ let richard = new abonnes("34", "richard.jpg", "Richard", "40", "Homme", "Femme"
 let bertrand = new abonnes("35", "bertrand.jpg", "Bertrand", "45", "Homme", "Femme", "Departement", "A propos de vous")
 let bebeth = new abonnes("36", "bobby.jpg", "Bebeth", "42", "Femme", "Femme", "Departement", "A propos de vous")
 let michel = new abonnes("37", "michel.jpg", "Michel05", "31", "Homme", "Femme", "76", "A la recherche du grand amour",)
-let paul = new abonnes("38", "paul.jpg", "paul", "PauloRAFF", "24", "Homme", "Femme", "76", " Qui pour Netflix & Chill ? ")
+let paul = new abonnes("38", "paul.jpg","PauloRAFF", "24", "Homme", "Femme", "76", " Qui pour Netflix & Chill ? ")
 let medhi = new abonnes("39", "medhi.jpg", "MedhiA14H", "21", "Homme", "Femme", "38", "salut ça va ? ")
 let fabien = new abonnes("40", "fabien.jpg", "MMFabien", "27", "Homme", "Femme", "76", "J'aime la bouffe ")
 let zhangchi = new abonnes("41", "zhangchi.jpg", "Zhangchi", "19", "Homme", "Femme", "38", "J'esper taim le foot")
-let sami = new abonnes("42", "sami.jpg", "sami", "21", "Homme", "Femme", "38", "salut ça va ? ")
+let sami = new abonnes("42", "sami.jpg", "Sami", "21", "Homme", "Femme", "38", "salut ça va ? ")
 let marie = new abonnes("43", "marie.jpg", "Marie76", "31", "Femme", "Homme", "76", "On verra bien")
-let lisa = new abonnes("44", "lisa.jpg", "lisa18", "18", "Femme", "Homme", "76", "On verra bien")
-let claire = new abonnes("45", "claire.jpg", "claire", "52", "Femme", "Femme", "76", "Boire un verre")
-let fati = new abonnes("46", "fati.jpg", "fati", "18", "Femme", "Homme", "28", "On verra bien")
+let lisa = new abonnes("44", "lisa.jpg", "Lisa18", "18", "Femme", "Homme", "76", "On verra bien")
+let claire = new abonnes("45", "claire.jpg", "Claire", "52", "Femme", "Femme", "76", "Boire un verre")
+let fati = new abonnes("46", "fati.jpg", "Fati", "18", "Femme", "Homme", "28", "On verra bien")
 let fanta = new abonnes("47", "fanta.jpg", "FantaCitron", "24", "Femme", "Homme", "76", "On verra bien")
 let assia = new abonnes("48", "assia.jpg", "Assiass", "27", "Femme", "Homme", "76", "On verra bien")
 
@@ -70,7 +70,7 @@ for (let i = 0; i <= 24; i++) {
                     <p class="description">
                         Déscription : ${recherche[i].description}
                     </p>
-            <button id="btnInfo" onclick="redirection(${i})" >En savoir plus > </button>
+            <button id="btnInfo" onclick="redirection(${i})" >En savoir plus <i class="bi bi-emoji-heart-eyes"></i> </button>
     </div>
 </div>
 `
