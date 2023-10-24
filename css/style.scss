@@ -1,12 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
 body {
+    font-family: 'Montserrat', sans-serif;
     background-image: url(../image/pexels-juan-mendez-1536619.jpg);
     background-repeat: round;
     background-attachment: fixed;
+
+    .messagebienvenue {
+        width: fit-content;
+        position: absolute;
+        left: 200px;
+        top: 180px
+    }
 
     .block {
         display: flex;
         position: relative;
         top: 48.75rem;
+
 
         #barrenav {
             display: flex;
@@ -15,6 +27,7 @@ body {
             height: auto;
             background-color: coral;
             margin: .5rem;
+
 
             img {
                 width: 15rem;
@@ -28,6 +41,8 @@ body {
                 margin: 1rem;
                 cursor: pointer;
                 border: solid;
+                font-family: 'Montserrat', sans-serif;
+
 
             }
         }
@@ -40,7 +55,6 @@ body {
 
 
             #affiche {
-                border: solid;
                 padding: 1rem;
                 display: flex;
                 flex-direction: column;
@@ -52,12 +66,50 @@ body {
 
                 img {
                     width: 10rem;
-                    border: solid;
+                }
 
 
-                    #info {
-                        display: flex;
-                        flex-direction: column;
+                #info {
+                    display: flex;
+                    flex-direction: column;
+
+                    .age {
+                        filter: blur(2.5px);
+                    }
+
+                    .sexe {
+                        filter: blur(2.5px);
+
+                    }
+
+                    .orientation {
+                        filter: blur(2.5px);
+
+                    }
+
+                    .description {
+                        filter: blur(2.5px);
+
+                    }
+
+                    .departement {
+                        filter: blur(2.5px);
+
+                    }
+
+                    #btnInfo {
+                        cursor: pointer;
+                        font-family: 'Montserrat', sans-serif;
+                        font-weight: bold;
+
+                    }
+
+                    #btnInfo:hover {
+                        background-color: red;
+                        color: white;
+                        font-family: Arial, Helvetica, sans-serif;
+                        border-color: red;
+                        border-radius: 5px;
                     }
                 }
             }

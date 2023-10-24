@@ -1,0 +1,19 @@
+
+                    <p class="age">
+                        Age : ${recherche[i].age}
+                    </p>
+
+                    <p class="sexe">
+                        Sexe : ${recherche[i].sexe}
+                    </p>
+
+                    <p class="orienation">
+                        Orientation :  ${recherche[i].orientation}
+
+                    <p class="departement">
+                        Département :  ${recherche[i].departement}
+                    </p>
+
+                    <p class="description">
+                        Déscription : ${recherche[i].description}
+                    </p>

@@ -30,7 +30,7 @@ let michel = new abonnes("37", "michel.jpg", "Michel05", "31", "Homme", "Femme",
 let paul = new abonnes("38", "paul.jpg", "paul", "PauloRAFF", "24", "Homme", "Femme", "76", " Qui pour Netflix & Chill ? ")
 let medhi = new abonnes("39", "medhi.jpg", "MedhiA14H", "21", "Homme", "Femme", "38", "salut ça va ? ")
 let fabien = new abonnes("40", "fabien.jpg", "MMFabien", "27", "Homme", "Femme", "76", "J'aime la bouffe ")
-let zhangchi = new abonnes("41", "zhanchi.jpg", "Zhanchi", "19", "Homme", "Femme", "38", "J'esper taim le foot")
+let zhangchi = new abonnes("41", "zhangchi.jpg", "Zhangchi", "19", "Homme", "Femme", "38", "J'esper taim le foot")
 let sami = new abonnes("42", "sami.jpg", "sami", "21", "Homme", "Femme", "38", "salut ça va ? ")
 let marie = new abonnes("43", "marie.jpg", "Marie76", "31", "Femme", "Homme", "76", "On verra bien")
 let lisa = new abonnes("44", "lisa.jpg", "lisa18", "18", "Femme", "Homme", "76", "On verra bien")
@@ -43,35 +43,35 @@ const recherche = [jeanine, aurelie, magalie, violette, arlette, mariane, arnaud
 
 for (let i = 0; i <= 24; i++) {
     galerieDesAbonnes.innerHTML += `
-    <div id="affiche">
+<div id="affiche">
 
-                <img src="css/img/${recherche[i].photo}">
+    <img src="css/img/${recherche[i].photo}">
 
-                <div id="info">
-                    <p class="pseudo">
-                        Pseudo : ${recherche[i].pseudo}
-                    </p>
-                    <p class="age">
+    <div id="info">
+        <p class="pseudo">
+            Pseudo : ${recherche[i].pseudo}
+        </p>
+        
+        <p class="age">
                         Age : ${recherche[i].age}
-
                     </p>
 
                     <p class="sexe">
                         Sexe : ${recherche[i].sexe}
                     </p>
 
-                    <p class="orienation">
+                    <p class="orientation">
                         Orientation :  ${recherche[i].orientation}
 
                     <p class="departement">
                         Département :  ${recherche[i].departement}
-
                     </p>
 
                     <p class="description">
                         Déscription : ${recherche[i].description}
                     </p>
-                </div>
-            </div>
+            <button id="btnInfo">En savoir plus > </button>
+    </div>
+</div>
 `
 }
