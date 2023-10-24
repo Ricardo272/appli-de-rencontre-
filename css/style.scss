@@ -1,6 +1,5 @@
 body {
     .block {
-        background-color: #757876;
         display: flex;
 
         #barrenav {
@@ -56,6 +55,43 @@ body {
                         display: flex;
                         flex-direction: column;
                     }
+                }
+            }
+        }
+    }
+}
+
+
+body {
+    background-image: url(../image/pexels-juan-mendez-1536619.jpg);
+    background-repeat: round;
+    background-attachment: fixed;
+    display: flex;
+
+    .entete {
+        nav {
+            h1 {
+                img {
+                    color: blue;
+                }
+            }
+        }
+    }
+
+    .formulaire {
+        width: 30%;
+        position: relative;
+        top: 80px;
+        right: 70px;
+
+        form {
+            p {
+                label {
+                    display: inline-block;
+                }
+
+                input {
+                    color: blue;
                 }
             }
         }
