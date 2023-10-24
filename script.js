@@ -70,15 +70,16 @@ for (let i = 0; i <= 24; i++) {
                     <p class="description">
                         Déscription : ${recherche[i].description}
                     </p>
-       
-             
-                  <button id="btnInfo">En savoir plus > </button>
-             
+            <button id="btnInfo" onclick="redirection(${i})" >En savoir plus > </button>
     </div>
 </div>
 `
 }
 
+function redirection (index){
+    document.location.href = `profil.html?index=${index}`;
+    
+}
 
 
 
