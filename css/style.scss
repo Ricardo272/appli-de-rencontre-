@@ -23,13 +23,20 @@ body {
         #barrenav {
             display: flex;
             flex-direction: column;
-            width: fit-content;
-            height: auto;
             margin: .5rem;
+            background-color: #da946e;
+            height: 50rem;
+            align-items: center;
+            border: solid;
+            border-radius: 3rem;
+            justify-content: space-between;
+
+
 
 
             img {
-                width: 15rem;
+                border-radius: 10rem;
+                width: 10rem;
                 margin: 2rem;
                 border: solid;
             }
@@ -38,9 +45,23 @@ body {
             button {
                 cursor: pointer;
                 font-family: 'Montserrat', sans-serif;
-
-
+                display: inline-block;
+                width: 10rem;
+                right: 50px;
+                align-items: center;
+                padding: .5rem 1.5rem;
+                margin: 1rem;
+                border-radius: .4rem;
+                font-size: 1.5rem;
+                background-color: black;
+                color: white;
             }
+
+            #about {
+                margin-bottom: 2rem;
+            }
+
+
         }
 
         #galerieDesAbonnes {
@@ -59,15 +80,26 @@ body {
                 width: 16rem;
                 margin: .5rem;
                 background-color: white;
+                border: solid;
+                border-radius: 4rem;
+                font-size: 1.2rem;
+
 
                 img {
                     width: 10rem;
+                    border-radius: 10rem;
+                    border: solid;
+
                 }
 
 
                 #info {
                     display: flex;
                     flex-direction: column;
+
+                    .pseudo {
+                        font-weight: bold;
+                    }
 
                     #directionProfil {
                         text-align: center;
@@ -101,6 +133,12 @@ body {
                         cursor: pointer;
                         font-family: 'Montserrat', sans-serif;
                         font-weight: bold;
+                        margin: 0.5rem;
+                        border-radius: .4rem;
+                        font-size: 1.3rem;
+                        background-color: black;
+                        color: white;
+
 
                     }
 
