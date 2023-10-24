@@ -23,7 +23,6 @@ body .block #barrenav {
   width: -moz-fit-content;
   width: fit-content;
   height: auto;
-  background-color: coral;
   margin: 0.5rem;
 }
 body .block #barrenav img {
@@ -32,10 +31,7 @@ body .block #barrenav img {
   border: solid;
 }
 body .block #barrenav button {
-  font-size: 2rem;
-  margin: 1rem;
   cursor: pointer;
-  border: solid;
   font-family: "Montserrat", sans-serif;
 }
 body .block #galerieDesAbonnes {
@@ -60,6 +56,9 @@ body .block #galerieDesAbonnes #affiche img {
 body .block #galerieDesAbonnes #affiche #info {
   display: flex;
   flex-direction: column;
+}
+body .block #galerieDesAbonnes #affiche #info #directionProfil {
+  text-align: center;
 }
 body .block #galerieDesAbonnes #affiche #info .age {
   filter: blur(2.5px);

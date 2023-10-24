@@ -25,7 +25,6 @@ body {
             flex-direction: column;
             width: fit-content;
             height: auto;
-            background-color: coral;
             margin: .5rem;
 
 
@@ -37,10 +36,7 @@ body {
 
 
             button {
-                font-size: 2rem;
-                margin: 1rem;
                 cursor: pointer;
-                border: solid;
                 font-family: 'Montserrat', sans-serif;
 
 
@@ -72,6 +68,10 @@ body {
                 #info {
                     display: flex;
                     flex-direction: column;
+
+                    #directionProfil {
+                        text-align: center;
+                    }
 
                     .age {
                         filter: blur(2.5px);

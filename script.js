@@ -70,8 +70,15 @@ for (let i = 0; i <= 24; i++) {
                     <p class="description">
                         Déscription : ${recherche[i].description}
                     </p>
-            <button id="btnInfo">En savoir plus > </button>
+       
+             
+                  <button id="btnInfo">En savoir plus > </button>
+             
     </div>
 </div>
 `
 }
+
+
+
+
