@@ -1,3 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Montserrat:wght@600&family=Playpen+Sans:wght@300&family=Roboto:wght@300&family=Sora&display=swap');
+
 body #tableau {
   color: black;
+  
 }/*# sourceMappingURL=style.css.map */
+body{
+  background-image: url(../image/pexels-juan-mendez-1536619.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  color: blue;
+.entete{
+  width: 75%;
+  height: 50px;
+  margin: 0 auto;
+}
+nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+h1{
+  color: blue;
+  font-style: italic;
+  font-size: 2em;
+}
+.connexion{
+  display: block;
+  width: 250px;
+  height: 3em;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: yellow;
+  border-color: blue;
+  font-size: 1em;
+  color: blue;
+}
+.formulaire{
+  margin: 0 auto;
+  width: 30%;
+}
+.conditions{
+  display: flex;
+  flex-direction: row;
+}
+#inscription{
+  display: block;
+  width: 80%;
+  height: 50px;
+  border-radius: 10px;
+  background-color: rgb(241, 65, 241);
+  color: white;
+  font-weight: 300;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2em;
+  cursor: pointer;
+
+}
+#inscription:hover{
+  color: white;
+  background-color: red;
+  border-color: red;
+}
+label{
+  display: inline-block;
+  width: 90px;
+}
+input{
+  display: inline-block;
+  border-radius: 5px;
+  padding-left: 5px;
+  border-color: rgb(241, 65, 241);
+}
+
+
+}
