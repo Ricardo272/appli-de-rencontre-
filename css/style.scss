@@ -1,3 +1,61 @@
 body {
-    #tableau {color: black;}
+    .block {
+        display: flex;
+
+        #barrenav {
+            display: flex;
+            flex-direction: column;
+            width: fit-content;
+            height: auto;
+            background-color: coral;
+            justify-content: space-between;
+            margin: .5rem;
+            border-radius: 1rem;
+
+            img {
+                width: 15rem;
+                margin: 2rem;
+                border-radius: 5rem;
+                border: solid;
+            }
+
+
+            button {
+                font-size: 2rem;
+                margin: 1rem;
+                cursor: pointer;
+                border-radius: 1rem;
+                border: solid;
+
+            }
+        }
+
+        #galerieDesAbonnes {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-between;
+
+            #affiche {
+                border: solid;
+                border-radius: 6rem;
+                padding: 1rem;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                width: 20rem;
+                margin: .5rem;
+
+                img {
+                    width: 10rem;
+
+                    #info {
+                        display: flex;
+                        flex-direction: column;
+                    }
+                }
+            }
+        }
+    }
 }
