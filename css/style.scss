@@ -1,5 +1,6 @@
 body {
     .block {
+        background-color: #757876;
         display: flex;
 
         #barrenav {
@@ -10,12 +11,10 @@ body {
             background-color: coral;
             justify-content: space-between;
             margin: .5rem;
-            border-radius: 1rem;
 
             img {
                 width: 15rem;
                 margin: 2rem;
-                border-radius: 5rem;
                 border: solid;
             }
 
@@ -36,9 +35,9 @@ body {
             flex-wrap: wrap;
             justify-content: space-evenly;
 
+
             #affiche {
                 border: solid;
-                border-radius: 6rem;
                 padding: 1rem;
                 display: flex;
                 flex-direction: column;
@@ -46,9 +45,12 @@ body {
                 justify-content: center;
                 width: 16rem;
                 margin: .5rem;
+                background-color: white;
 
                 img {
                     width: 10rem;
+                    border: solid;
+
 
                     #info {
                         display: flex;

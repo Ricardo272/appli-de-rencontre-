@@ -71,9 +71,6 @@ for (let i = 0; i <= 24; i++) {
                     <p class="description">
                         Déscription : ${recherche[i].description}
                     </p>
-                    <p class="id">
-                        ID :  ${recherche[i].id}
-                    </p>
                 </div>
             </div>
 `
