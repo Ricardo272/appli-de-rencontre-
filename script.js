@@ -76,11 +76,25 @@ for (let i = 0; i <= 24; i++) {
 `
 }
 
-function redirection(index) {
-    document.location.href = `profil.html?index=${index}`;
+// function redirection(index) {
+//     document.location.href = `profil.html?index=${index}`;
 
-}
+// }
 
+inscription.addEventListener("click", function () {
+
+    document.cookie = "cgu=accepted"
+
+})
+// const tousLesCookies = document.cookie;
+// const tableauCookies = tousLesCookies.split("; ")
+
+// for (const cookie of tableauCookies) {
+//     const [cookieName, cookieValue, cookieId] = cookie.split("=")
+//     console.log(`Nom du cookie : ${cookieName}`)
+//     console.log(`Valeur du cookie : ${cookieValue}`)
+//     console.log(`Id du cookie :${cookieId}`)
+// }
 
 
 

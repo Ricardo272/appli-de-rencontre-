@@ -19,26 +19,28 @@
 
 
             <p>
-                <label class="etiquette" for="">Je m'appelle</label>
-                <input type="text">
+                <label class="etiquette" for="prenom">Je m'appelle</label>
+                <input type="text" id="prenom">
             </p>
 
-            <label class="sexe" for="">Je suis</label>
-            <select name="" id="">
+            <label class="sexe" for="genre">Je suis</label>
+            <select name="genre" id="genre">
                 <option value="Homme">Homme</option>
                 <option value="Femme">Femme</option>
             </select>
 
             <p>
-                <label class="etiquette" for=""> Je cherche</label>
-                <input type="radio" value=""><label for="">Femme </label>
-                <input type="radio" value=""><label for="">Homme</label>
+                <label class="etiquette" for="genreRechercher"> Je cherche</label>
+                <label for="genreFemme">Femme </label>
+                <input type="radio" id="genreHomme">
+                <label for="genreHomme">Homme</label>
+                <input type="radio" id="genreFemme">
             </p>
 
             <p>
 
-                <label class="etiquette" for="">Tranche d'âge</label>
-                <select name="" id="">
+                <label class="etiquette" for="trancheAge">Tranche d'âge</label>
+                <select name="trancheAge" id="trancheAge">
                     <option value="18 - 25">18- 25 ans</option>
                     <option value="25 - 35">25 - 35 ans</option>
                     <option value="35 - 45">35 - 45 ans</option>
@@ -47,11 +49,11 @@
             </p>
 
             <p class="label">
-                <label class="etiquette" for="">Mon adresse mail</label>
-                <input type="text">
+                <label class="etiquette" for="mail">Mon adresse mail</label>
+                <input type="text" id="mail">
             </p>
             <p class="conditions">
-                <input type="radio" class="bouton_radio"><a href="">
+                <input type="radio" class="bouton_radio" id="conditionsUtilisation"><a href="">
                     J'accepte les conditions d'utilisation adipisicing elit. Optio hic veniam ipsum, cupiditate porro
                     velit laboriosam quod minus a mollitia est, at accusantium sequi, asperiores facilis exercitationem
                     ad. Repellendus, excepturi.
