@@ -1,4 +1,5 @@
 body {
+  font-family: "Montserrat", sans-serif;
   background-image: url(../image/pexels-juan-mendez-1536619.jpg);
   background-repeat: round;
   background-attachment: fixed;
@@ -12,6 +13,17 @@ body .formulaire {
   position: relative;
   top: 80px;
   right: 70px;
+  font-weight: bold;
+}
+body .formulaire form #trancheAge {
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  border: solid 1px;
+}
+body .formulaire form #genre {
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  border: solid 1px;
 }
 body .formulaire form .conditions {
   width: 60%;
@@ -21,16 +33,43 @@ body .formulaire form .sexe {
   width: 20%;
   text-align: right;
   margin-right: 1rem;
+  font-weight: bold;
 }
 body .formulaire form p {
   width: 100%;
+}
+body .formulaire form p #mail {
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  border: solid 1px;
+}
+body .formulaire form p #prenom {
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  border: solid 1px;
 }
 body .formulaire form p .etiquette {
   display: inline-block;
   width: 20%;
   text-align: right;
   margin-right: 1rem;
+  font-weight: bold;
+}
+body .formulaire form p #genreHomme {
+  border: solid 1px;
+}
+body .formulaire form p #genreFemme {
+  border: solid 1px;
 }
 body .formulaire form p input {
-  color: blue;
+  color: black;
+}
+body .formulaire form #inscription {
+  background-color: white;
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  border: solid 2px;
+  border-radius: 0.2rem;
+  padding: 0.2rem;
 }/*# sourceMappingURL=acceuil.css.map */
