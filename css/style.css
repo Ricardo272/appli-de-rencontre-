@@ -21,7 +21,7 @@ body .block #barrenav {
   display: flex;
   flex-direction: column;
   margin: 0.5rem;
-  background-color: #da946e;
+  background-color: #A17865;
   height: 50rem;
   align-items: center;
   border: solid;
@@ -38,7 +38,7 @@ body .block #barrenav button {
   cursor: pointer;
   font-family: "Montserrat", sans-serif;
   display: inline-block;
-  width: 10rem;
+  width: 11rem;
   right: 50px;
   align-items: center;
   padding: 0.5rem 1.5rem;
@@ -50,6 +50,44 @@ body .block #barrenav button {
 }
 body .block #barrenav #about {
   margin-bottom: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+body .block #barrenav #about:hover {
+  background-color: red;
+  color: white;
+  border-color: red;
+  border-radius: 5px;
+}
+body .block #barrenav #acceuil {
+  display: flex;
+  justify-content: space-between;
+}
+body .block #barrenav #acceuil:hover {
+  background-color: red;
+  color: white;
+  border-color: red;
+  border-radius: 5px;
+}
+body .block #barrenav #profil {
+  display: flex;
+  justify-content: space-between;
+}
+body .block #barrenav #profil:hover {
+  background-color: red;
+  color: white;
+  border-color: red;
+  border-radius: 5px;
+}
+body .block #barrenav #chat {
+  display: flex;
+  justify-content: space-between;
+}
+body .block #barrenav #chat:hover {
+  background-color: red;
+  color: white;
+  border-color: red;
+  border-radius: 5px;
 }
 body .block #galerieDesAbonnes {
   display: flex;
@@ -65,7 +103,7 @@ body .block #galerieDesAbonnes #affiche {
   justify-content: center;
   width: 16rem;
   margin: 0.5rem;
-  background-color: white;
+  background-color: #A17865;
   border: solid;
   border-radius: 4rem;
   font-size: 1.2rem;
@@ -86,34 +124,36 @@ body .block #galerieDesAbonnes #affiche #info #directionProfil {
   text-align: center;
 }
 body .block #galerieDesAbonnes #affiche #info .age {
-  filter: blur(2.5px);
+  filter: blur(3px);
 }
 body .block #galerieDesAbonnes #affiche #info .sexe {
-  filter: blur(2.5px);
+  filter: blur(2.9px);
 }
 body .block #galerieDesAbonnes #affiche #info .orientation {
-  filter: blur(2.5px);
+  filter: blur(2.9px);
 }
 body .block #galerieDesAbonnes #affiche #info .description {
-  filter: blur(2.5px);
+  filter: blur(2.9px);
 }
 body .block #galerieDesAbonnes #affiche #info .departement {
-  filter: blur(2.5px);
+  filter: blur(2.9px);
 }
 body .block #galerieDesAbonnes #affiche #info #btnInfo {
   cursor: pointer;
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
   margin: 0.5rem;
+  padding: 0.2rem;
   border-radius: 0.4rem;
   font-size: 1.3rem;
   background-color: black;
   color: white;
+  display: flex;
+  justify-content: space-evenly;
 }
 body .block #galerieDesAbonnes #affiche #info #btnInfo:hover {
   background-color: red;
   color: white;
-  font-family: Arial, Helvetica, sans-serif;
   border-color: red;
   border-radius: 5px;
 }/*# sourceMappingURL=style.css.map */

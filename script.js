@@ -27,7 +27,7 @@ let richard = new abonnes("34", "richard.jpg", "Richard", "40", "Homme", "Femme"
 let bertrand = new abonnes("35", "bertrand.jpg", "Bertrand", "45", "Homme", "Femme", "Departement", "A propos de vous")
 let bebeth = new abonnes("36", "bobby.jpg", "Bebeth", "42", "Femme", "Femme", "Departement", "A propos de vous")
 let michel = new abonnes("37", "michel.jpg", "Michel05", "31", "Homme", "Femme", "76", "A la recherche du grand amour",)
-let paul = new abonnes("38", "paul.jpg","PauloRAFF", "24", "Homme", "Femme", "76", " Qui pour Netflix & Chill ? ")
+let paul = new abonnes("38", "paul.jpg", "PauloRAFF", "24", "Homme", "Femme", "76", " Qui pour Netflix & Chill ? ")
 let medhi = new abonnes("39", "medhi.jpg", "MedhiA14H", "21", "Homme", "Femme", "38", "salut ça va ? ")
 let fabien = new abonnes("40", "fabien.jpg", "MMFabien", "27", "Homme", "Femme", "76", "J'aime la bouffe ")
 let zhangchi = new abonnes("41", "zhangchi.jpg", "Zhangchi", "19", "Homme", "Femme", "38", "J'esper taim le foot")
@@ -76,9 +76,9 @@ for (let i = 0; i <= 24; i++) {
 `
 }
 
-function redirection (index){
+function redirection(index) {
     document.location.href = `profil.html?index=${index}`;
-    
+
 }
 
 
